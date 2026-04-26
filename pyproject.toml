@@ -1,0 +1,9 @@
+[project]
+name = "atm-controller"
+version = "0.1.0"
+description = "Simple ATM controller with pluggable bank and cash bin"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
